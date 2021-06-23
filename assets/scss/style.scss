@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'metropolisblack';
+    src: url('~assets/fonts/metropolis-black-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisbold';
+    src: url('~assets/fonts/metropolis-bold-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisbold_italic';
+    src: url('~assets/fonts/metropolis-bolditalic-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisextra_bold';
+    src: url('~assets/fonts/metropolis-extrabold-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisextra_bold_italic';
+    src: url('~assets/fonts/metropolis-extrabolditalic-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisextra_light';
+    src: url('~assets/fonts/metropolis-extralight-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisextra_light_italic';
+    src: url('~assets/fonts/metropolis-extralightitalic-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolislight';
+    src: url('~assets/fonts/metropolis-light-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolismedium';
+    src: url('~assets/fonts/metropolis-medium-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolismedium_italic';
+    src: url('~assets/fonts/metropolis-mediumitalic-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisregular';
+    src: url('~assets/fonts/metropolis-regular-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolisregular_italic';
+    src: url('~assets/fonts/metropolis-regularitalic-webfont.woff2') format('woff2'),
+         url('~assets/fonts/metropolis-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+	font-family: "metropolisregular", sans-serif;
+	overflow-x: hidden;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    max-width: 1920px;
+    margin: auto;
+    transform: translate(50%, 50%);
+}
+
+.coming-soon{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    .bg-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom right;
+    }
+}
+
