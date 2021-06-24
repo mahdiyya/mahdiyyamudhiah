@@ -38,7 +38,13 @@
       </div>
       <div class="footer">
         <div class="row socials">
-          <a href="https://github.com/mahdiyya" class="icon-reg" title="github">
+          <a
+            href="https://github.com/mahdiyya"
+            class="icon-reg"
+            target="_blank"
+            title="github"
+            rel="noreferrer noopener"
+          >
             <svg
               width="24"
               height="25"
@@ -55,7 +61,9 @@
           <a
             href="https://www.instagram.com/diadhees"
             class="icon-reg"
+            target="_blank"
             title="instagram"
+            rel="noreferrer noopener"
           >
             <svg
               width="27"
@@ -75,7 +83,9 @@
           <a
             href="https://www.facebook.com/diadhees"
             class="icon-reg"
+            target="_blank"
             title="facebook"
+            rel="noreferrer noopener"
           >
             <svg
               width="15"
@@ -95,7 +105,13 @@
               />
             </svg>
           </a>
-          <a href="mailto:mahdiyyatul@gmail.com" class="icon-reg" title="email">
+          <a
+            href="mailto:mahdiyyatul@gmail.com"
+            class="icon-reg"
+            target="_blank"
+            title="email"
+            rel="noreferrer noopener"
+          >
             <svg
               width="29"
               height="23"
@@ -124,7 +140,9 @@
           <a
             href="https://www.behance.net/mahdiyyatul"
             class="icon-reg"
+            target="_blank"
             title="behance"
+            rel="noreferrer noopener"
           >
             <svg
               width="29"
@@ -154,11 +172,18 @@
             </svg>
           </a>
         </div>
+        <p class="copyright">
+          Copyright © 2021 <i>Mahdiyya Mudhiah</i>. All Rights Reserved.
+        </p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  middleware(ctx) {
+    ctx.$gtm.push({ event: 'ssr' })
+  },
+}
 </script>
