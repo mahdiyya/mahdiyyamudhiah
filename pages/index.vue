@@ -33,7 +33,7 @@
           See you soon
           <i><b>hopefully</b></i>
           on
-          <span>July 1st 2021</span>.
+          <span>July 5th 2021</span>.
         </p>
       </div>
       <div class="footer">

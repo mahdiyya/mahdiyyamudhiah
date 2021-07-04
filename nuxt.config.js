@@ -1,8 +1,13 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'static',
+  // server: {
+  //   port: '49001',
+  //   host: 'cms.mahdiyyamudhiah.com',
+  //   timing: false,
+  //   https: 'https',
+  // },
   head: {
-    title: 'Mahdiyya Mudhiah - Creative Designer & UX Engineer',
+    title: 'Mahdiyyatul Mudhiah - Creative Designer & UX Engineer',
     htmlAttrs: {
       lang: 'en',
     },
@@ -13,13 +18,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Hello! I am Diyyah -- a UX Engineer, a woman who love develops websites, designs some websites, and exploring Blender to models some cute little things.',
+          'Hello! I am Diyyah -- a UX Engineer, a woman who love arts, the art of website development, meanwhile exploring Blender to models some cute little things.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'Front-End Engineer, UX Engineer, Vue, Nuxt, Profile, Portfolio, Javascript',
+          'Mahdiyyatul Mudhiah, diadhees, Mahdiyya Mudhiah, Front-End Engineer, UX Engineer, Vue, Nuxt, Profile, Portfolio, Javascript',
       },
       {
         hid: 'theme-color',
@@ -29,7 +34,7 @@ export default {
       {
         hid: 'author',
         name: 'author',
-        content: 'Mahdiyya Mudhiah',
+        content: 'diadhees - Mahdiyyatul Mudhiah',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -42,9 +47,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/scss/style.css'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -59,7 +61,19 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/gtm'],
 
-  gtm: { id: 'GTM-MHN82JG' },
+  plugins: ['~/plugins/gtm'],
+  gtm: {
+    id: process.env.GTM_ID || 'GTM-MHN82JG',
+    scriptDefer: true,
+    pageTracking: true,
+    // layer: 'test',
+    variables: { test: '1' },
+  },
+  publicRuntimeConfig: {
+    gtm: {
+      id: 'GTM-MHN82JG&runtime',
+    },
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
