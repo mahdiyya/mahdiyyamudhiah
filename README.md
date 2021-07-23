@@ -1,2 +1,2 @@
 # mahdiyyamudhiah
-Personal Website developed on Nuxt
+:sparkles: Personal Website developed on Nuxt :sparkles:
