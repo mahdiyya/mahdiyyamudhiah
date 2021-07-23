@@ -1,7 +1,10 @@
 # mahdiyyamudhiah
 
+<<<<<<< HEAD
 :sparkles: Personal Website developed on Nuxt :sparkles:
 
+=======
+>>>>>>> 06dbaeea64a73a421dcafb3b0a76532d806bf6a9
 ## Build Setup
 
 ```bash
@@ -20,5 +23,8 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<<<<<<< HEAD
 
 > > > > > > > 06dbaee (initial commit)
+=======
+>>>>>>> 06dbaeea64a73a421dcafb3b0a76532d806bf6a9
