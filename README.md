@@ -1,4 +1,5 @@
 # mahdiyyamudhiah
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 :sparkles: Personal Website developed on Nuxt :sparkles:
@@ -28,3 +29,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 > > > > > > > 06dbaee (initial commit)
 =======
 >>>>>>> 06dbaeea64a73a421dcafb3b0a76532d806bf6a9
+=======
+:sparkles: Personal Website developed on Nuxt :sparkles:
+>>>>>>> 5844b179c8c3a104c381255abacf3b2d95ad2161
