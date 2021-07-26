@@ -1,11 +1,5 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  // server: {
-  //   port: '49001',
-  //   host: 'cms.mahdiyyamudhiah.com',
-  //   timing: false,
-  //   https: 'https',
-  // },
+  // target: 'static',
   head: {
     title: 'Mahdiyyatul Mudhiah - Creative Designer & UX Engineer',
     htmlAttrs: {
