@@ -14,5 +14,11 @@ module.exports = {
   ],
   plugins: ['prettier'],
   // add your custom rules here
+<<<<<<< HEAD
   rules: { 'prettier/prettier': ['error', { endOfLine: 'auto' }] },
+=======
+  rules: {
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+  },
+>>>>>>> master
 }
